@@ -11,7 +11,7 @@ class Anagram
 
   def match(array_of_anagrams)
     matches = []
-
+      array_of_anagrams.split(/ /)
     matches
   end
 
