@@ -13,5 +13,6 @@ class Anagram
 
     matches
   end
+  binding.pry
 
 end
