@@ -4,9 +4,9 @@ class Anagram
 
   attr_accessor :word
   binding.pry
-  # def initialize(word)
-  #   @word = word
-  # end
+  def initialize(word)
+
+  end
 
   def match(array_of_anagrams)
     matches = []
