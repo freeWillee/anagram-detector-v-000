@@ -14,6 +14,7 @@ class Anagram
       array_of_anagrams.each do |word|
         if @word.split(//).sort == word.split(//).sort
           matches << word
+        end
       binding.pry
     matches
   end
