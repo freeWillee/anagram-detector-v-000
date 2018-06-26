@@ -16,7 +16,7 @@ class Anagram
           matches << word
         end
       end
-      binding.pry
+      # binding.pry
     matches
   end
 
